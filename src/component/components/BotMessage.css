@@ -1,0 +1,80 @@
+/* BotMessage.css */
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.code-container {
+  position: relative;
+  width: 80%;
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  background-color: #050505e6;
+  color: white;
+  margin: 20px 0px;
+}
+
+.code-container button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #100f0f00;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.code-container button:hover {
+  background-color: #333;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.table-container {
+  max-height: 200px;
+
+  /* Adjust height as needed */
+  overflow-y: auto;
+  overflow-x: auto;
+  /* Add horizontal scroll */
+}
+
+/* Style the scrollbar */
+/* Style the scrollbar */
+.table-container::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  /* Width of the scrollbar */
+}
+
+/* Track */
+.table-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color of the scrollbar track */
+}
+
+/* Handle */
+.table-container::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Color of the scrollbar handle */
+  border-radius: 10px;
+  /* Roundness of the scrollbar handle */
+}
+
+/* Handle on hover */
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Color of the scrollbar handle on hover */
+}

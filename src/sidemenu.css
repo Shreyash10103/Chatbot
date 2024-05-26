@@ -1,0 +1,85 @@
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  height: 97vh;
+
+  color: white;
+  padding: 9px;
+
+  position: fixed;
+
+}
+
+.main-btn {
+  line-height: 1.5rem;
+  position: absolute;
+  background-color: #616161c0;
+  border: 0.1875rem solid var(--primary-color);
+  color: var(--white-color);
+  text-transform: capitalize;
+  -webkit-transition: all .4s ease-out 0s;
+  -o-transition: all .4s ease-out 0s;
+  -moz-transition: all .4s ease-out 0s;
+  transition: all .4s ease-out 0s;
+
+
+}
+
+.fsfsf {
+  margin-left: 60%;
+  margin-top: 30px;
+  position: absolute;
+
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .fsfsf {
+    margin-top: 25px;
+    margin-left: 70%;
+  }
+}
+
+.main-btn:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+
+
+.top_section {
+  display: flex;
+  align-items: center;
+
+}
+
+.bars {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: darkblue;
+}
+
+
+.link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.link .icon {
+  margin-right: 10px;
+}
+
+.link_text {
+  white-space: nowrap;
+  color: white;
+}

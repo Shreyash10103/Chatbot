@@ -1,0 +1,43 @@
+.sidebar {
+  height: 100%;
+  width: 22%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: hsla(0, 0%, 20%, 0.914);
+  padding-top: 20px;
+  color: whitesmoke;
+  overflow-y: auto;
+  /* Initially set to auto */
+}
+
+
+/* Add a custom class to override overflow-y */
+
+
+/* Rest of the styles remain the same */
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  padding: 10px 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+  background-color: #555;
+}

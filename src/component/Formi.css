@@ -1,0 +1,51 @@
+.form1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 650px;
+  width: 80%;
+  height: 90%;
+  padding: 8rem 3rem;
+  border-radius: 5%;
+}
+
+.form-select {
+  margin-bottom: 20px;
+}
+
+.bntic {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cx {
+
+  background-color: rgb(106, 0, 255);
+  border-radius: 5px;
+  width: 14rem;
+  color: white;
+  align-self: center;
+  font: 400 1rem sans-serif;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
+.mainnn {
+  background-color: rgba(71, 78, 84, 0.865);
+  height: 160vh;
+  display: grid;
+  place-items: center;
+}
+
+.ti {
+  text-align: center;
+  font-size: 2.7rem;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  font-weight: lighter;
+}
